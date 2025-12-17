@@ -2,11 +2,13 @@ public class Main {
     public static void main(String[] args) {
 
         // create room objects
-        Room room1 = new Room(101, "Single", 50.0);
-        Room room2 = new Room(102, "Double", 80.0);
+        Room room1 = new Room(101, "Single", 1000.0);
+        Room room2 = new Room(102, "Double", 1000.0);
+         // Room room3 = new Room(103, "Double", 100.0);
+
 
         // create guest objects
-        Guest guest1 = new Guest("Ivan Ivanov", "AB123456");
+        Guest guest1 = new Guest("Nur Zhan", "AB123456");
         Guest guest2 = new Guest("Anna Petrova", "CD789012");
 
         // create booking objects
